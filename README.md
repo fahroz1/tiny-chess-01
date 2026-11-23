@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/tiny-chess-01/fahroz1/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/fahroz1/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A chess engine in exactly 4,096 bytes of Python. 0x88 board, full legal move generation (castling, en passant, promotions), negamax with alpha-beta pruning, quiescence search, MVV-LVA move ordering, and iterative deepening under a fixed node budget — deterministic, no clock, no randomness. It plays every game through the make.fun environment.
+A chess engine in 4,047 bytes of Python (lzma-packed). 0x88 board, full legal move generation (castling, en passant, promotions), negamax with alpha-beta pruning, quiescence search, MVV-LVA move ordering, killer moves, a transposition table, repetition awareness, and iterative deepening under a fixed cumulative node budget per move — deterministic, no clock, no randomness. It plays every game through the make.fun environment. Local practice trial (v4): Elo 1545 (4 wins, 1 draw, 1 loss).
 
 ## Run it
 
